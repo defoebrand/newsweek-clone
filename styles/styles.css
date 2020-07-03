@@ -1,13 +1,49 @@
-.themed-grid-col {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  background-color: rgba(86, 61, 124, .15);
-  border: 1px solid rgba(86, 61, 124, .2);
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
-.themed-container {
-  padding: 15px;
-  margin-bottom: 30px;
-  background-color: rgba(0, 123, 255, .15);
-  border: 1px solid rgba(0, 123, 255, .2);
+html {
+  font-size: 10px;
+}
+
+body {
+  max-width: 1310px;
+  margin: 0 auto;
+}
+
+.white-text {
+  color: white;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px 10px 15px;
+}
+
+.banner .local-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: 1.5rem;
+  margin-left: 20px;
+}
+
+.banner .page-title {
+  font-size: 7rem;
+  font-weight: 900;
+}
+
+.banner .banner-buttons {
+  margin-right: 4px;
+  font-size: 2rem;
+  align-self: flex-end;
+}
+
+.trial-button {
+  background-color: #FFE400;
+  border-radius: 10px;
 }

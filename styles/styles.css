@@ -24,6 +24,7 @@ body {
   justify-content: space-between;
   background: rgba(0, 0, 0, 0.5);
   padding: 20px 10px 15px;
+  background-color: #f72210;
 }
 
 .local-info {
@@ -77,6 +78,48 @@ body {
   line-height: 24px;
 }
 
+.headlines .nav-item {
+  flex: 1;
+  text-align: center;
+  justify-content: center;
+  min-width: fit-content;
+}
+
 .trending {
   font-size: 16px;
+}
+
+.cover-grid {
+  height: 500px;
+}
+
+.cover-grid
+
+.left-column {
+  width: 30%;
+  height: 100%;
+  min-width: 275px;
+}
+
+.featured-stories {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+
+.central-column {
+  width: 30%;
+  height: 100%;
+  min-width: 400px;
+}
+
+.right-column {
+  width: 30%;
+  height: 100%;
+  min-width: 275px;
+}
+
+.featured-story img {
+  max-width: 100%;
 }

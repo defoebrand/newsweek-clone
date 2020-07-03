@@ -1,7 +1,7 @@
 * {
-  margin: 0px;
-  padding: 0px;
-  border: 0px;
+  margin: 0;
+  padding: 0;
+  border: 0;
   box-sizing: border-box;
 }
 
@@ -36,20 +36,18 @@ body {
 
 .page-title {
   font-size: 7rem;
-  font-weight: 700;
-  margin: 0px;
+  margin: 0;
 }
 
 .banner-buttons {
   margin: 4px;
   font-size: 1.5rem;
-  font-weight: 900;
   align-self: flex-end;
   font-family: 'Roboto Condensed', sans-serif;
 }
 
 .trial-button {
-  background-color: #FFE400;
+  background-color: #ffe400;
   border-radius: 24px;
   padding: 2px 10px;
 }
@@ -57,4 +55,28 @@ body {
 .login-button {
   background: transparent;
   border: none;
+}
+
+.nav-link {
+  color: black;
+  font-family: 'Roboto Condensed', sans-serif;
+  padding: 0.5em 0.1em;
+}
+
+.nav-link:hover {
+  color: red;
+}
+
+.font-weight-900 {
+  font-weight: 900;
+}
+
+.headlines {
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.trending {
+  font-size: 16px;
 }

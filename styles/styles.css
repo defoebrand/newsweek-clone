@@ -183,3 +183,18 @@ body {
 .horizontal-card-text {
   font-size: 17px;
 }
+
+.debate-section {
+  border-top: 4px solid #f92859;
+  border-bottom: 4px solid #1c87fb;
+}
+
+.debate-section .card {
+  border: none;
+}
+
+.divider {
+  width: 100%;
+  height: 3px;
+  border
+}

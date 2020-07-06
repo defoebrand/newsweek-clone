@@ -150,3 +150,27 @@ body {
   font-weight: 200;
   color: #333;
 }
+
+.section-heading {
+  font-size: 16px;
+  font-weight: 700;
+  color: rgba(3, 3, 3, 0.4);
+  text-transform: uppercase;
+  font-family: var(--Roboto);
+}
+
+.images {
+  position: relative;
+}
+
+.image-header {
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  background: rgba(255, 255, 255, 0.9);
+  color: #f72210;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 16px;
+  padding: 8px 15px 9px;
+}

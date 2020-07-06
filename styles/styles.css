@@ -174,3 +174,12 @@ body {
   line-height: 16px;
   padding: 8px 15px 9px;
 }
+
+.horizontal-card {
+  padding: 14px 0;
+  border-top: 1px solid #ddd;
+}
+
+.horizontal-card-text {
+  font-size: 17px;
+}

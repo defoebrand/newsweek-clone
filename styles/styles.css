@@ -1,14 +1,21 @@
+:root {
+  --Roboto: 'Roboto Condensed', sans-serif;
+  --Arial: Arial, Helvetica, sans-serif;
+}
+
 * {
   margin: 0;
   padding: 0;
   border: 0;
   box-sizing: border-box;
+  font-family: var(--Arial);
 }
 
 html {
   font-size: 10px;
   font-family: 'Roboto Condensed', sans-serif;
 }
+
 
 body {
   max-width: 1310px;
@@ -122,4 +129,16 @@ body {
 
 .featured-story img {
   max-width: 100%;
+}
+
+.card {
+  border: 0;
+}
+
+.card-body {
+  padding: 1.25rem 0px;
+}
+
+.card-title {
+  font-family: var(--Roboto);
 }

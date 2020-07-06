@@ -141,4 +141,12 @@ body {
 
 .card-title {
   font-family: var(--Roboto);
+  font-weight: 700;
+  font-size: 2.4rem;
+}
+
+.card-text {
+  font-size: 1.5rem;
+  font-weight: 200;
+  color: #333;
 }

@@ -212,6 +212,18 @@ body {
   font-family: var(--Roboto);
 }
 
+/* STICKY COLUMN BEHAVIOUR */
+
+.sticky-1 {
+  position: sticky;
+  top: 0px;
+}
+
+.sticky-2 {
+  position: sticky;
+  top: 0px;
+}
+
 .my-turn-section .card,
 .culture-and-travel-section .card {
   width: 30%;

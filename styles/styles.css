@@ -269,6 +269,41 @@ body {
   border-radius: 0;
 }
 
+.btn-newsweek {
+  background-color: #f61602;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.full-line-divider,
+.partial-line-divider {
+  position: relative;
+}
+
+.full-line-divider::before {
+  left: -30px;
+  right: -30px;
+  content: "";
+  display: block;
+  background-color: #f4f5f6;
+  height: 2px;
+  position: absolute;
+  top: 0;
+}
+
+.partial-line-divider::before {
+  left: 0;
+  right: 0;
+  content: "";
+  display: block;
+  background-color: #d9d9d9;
+  height: 1px;
+  position: absolute;
+  top: 0;
+}
+
+
 /* FOOTER */
 
 footer {

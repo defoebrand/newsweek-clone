@@ -194,7 +194,22 @@ body {
 }
 
 .divider {
-  width: 100%;
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
   height: 3px;
-  border
+}
+
+.divider .circle {
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+  position: relative;
+  bottom: 16px;
+  background-color: black;
+  color: #d6d6d6;
+  text-align: center;
+  vertical-align: 0px;
+  font-size: 1.4rem;
+  font-weight: 700;
+  font-family: var(--Roboto);
 }

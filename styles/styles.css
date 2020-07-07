@@ -231,3 +231,42 @@ body {
 .bottom-section-header .col {
   min-width: calc(100% - 95px);
 }
+
+
+/* FOOTER */
+
+footer {
+  border-top: 1px solid #333;
+}
+
+.footer-logo {
+  width: 236px;
+  fill: red;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+.social-links {
+  color: #333;
+  font-size: 2.5rem;
+}
+
+footer li {
+  display: inline;
+  padding: 0px 3px;
+}
+
+.social-links a:hover {
+  text-decoration: none;
+}
+
+footer a {
+  color: #666;
+}
+
+.social-row {
+  border-bottom: 1px solid #666;
+}
+

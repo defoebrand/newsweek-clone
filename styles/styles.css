@@ -236,10 +236,22 @@ body {
 .bottom-section-header {
   color: red;
   text-transform: uppercase;
+  font-weight: 700;
+  font-size: 2.2rem;
 }
 
 .bottom-section-header .col {
   min-width: calc(100% - 95px);
+}
+
+/* SUBSCRIBE NEWSLETTER SECTION */
+
+.subscribe-newsletter-section .bottom-section-header {
+  position: absolute;
+  top: -20px;
+  left: 0px;
+  font-size: 1.6rem;
+  color: #f72210;
 }
 
 .starting-5 {
@@ -247,13 +259,14 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  width: 48%;
-  max-width: 191px;
-  height: 100%;
 }
 
 .subscribe {
   background: #f4f5f6;
+}
+
+.newsletter-card input {
+  border-radius: 0;
 }
 
 /* FOOTER */

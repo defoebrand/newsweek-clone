@@ -240,6 +240,10 @@ body {
   height: 100%;
 }
 
+.subscribe {
+  background: #f4f5f6;
+}
+
 /* FOOTER */
 
 footer {

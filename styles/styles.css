@@ -100,8 +100,6 @@ body {
   height: 500px;
 }
 
-.cover-grid
-
 .left-column {
   width: 30%;
   height: 100%;
@@ -232,6 +230,15 @@ body {
   min-width: calc(100% - 95px);
 }
 
+.starting-5 {
+  background-image: url("../images/starting-newsletter.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 48%;
+  max-width: 191px;
+  height: 100%;
+}
 
 /* FOOTER */
 
@@ -269,4 +276,3 @@ footer a {
 .social-row {
   border-bottom: 1px solid #666;
 }
-

@@ -103,6 +103,14 @@ body {
   min-width: fit-content;
 }
 
+.headlines input {
+  width: 100px;
+}
+
+.fa-search {
+  margin-right: 75px;
+}
+
 .search {
   width: 100px;
 }
@@ -222,7 +230,7 @@ body {
 }
 
 .blue-tag {
-  color: blue;
+  color: #3581f4;
 }
 
 .horizontal-card {
@@ -299,7 +307,7 @@ body {
   height: 29px;
 }
 
-.sign-up-form input {
+.email-input {
   font-size: 1.4rem;
 }
 
@@ -317,6 +325,7 @@ body {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 2.2rem;
+  font-family: var(--Roboto);
 }
 
 .bottom-section-header .col {
@@ -327,7 +336,7 @@ body {
 
 .subscribe-newsletter-section .bottom-section-header {
   position: absolute;
-  top: -20px;
+  top: -25px;
   left: 0px;
   font-size: 1.6rem;
   color: #f72210;
@@ -352,11 +361,16 @@ body {
   background-color: #f61602;
   color: white;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 14px;
+}
+
+.email-input {
+
 }
 
 .full-line-divider,
-.partial-line-divider {
+.partial-line-divider,
+.top-line-divider {
   position: relative;
 }
 
@@ -380,6 +394,28 @@ body {
   height: 1px;
   position: absolute;
   top: 0;
+}
+
+.top-line-divider::before {
+  left: 0;
+  right: 0;
+  content: "";
+  display: block;
+  background-color: #f4f5f6;
+  height: 2px;
+  position: absolute;
+  top: 0;
+}
+
+.top-line-divider::after {
+  left: 0;
+  right: 0;
+  content: "";
+  display: block;
+  background-color: #f4f5f6;
+  height: 2px;
+  position: absolute;
+  bottom: 0;
 }
 
 
@@ -439,4 +475,8 @@ footer .site-map-links {
   content: "";
   display: inline-block;
   background-color: #d9d9d9;
+}
+
+.test {
+  width: 100px;
 }

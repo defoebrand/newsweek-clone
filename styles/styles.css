@@ -316,10 +316,27 @@ body {
   font-size: 1.4rem;
 }
 
+.in-the-magazine .card-title {
+    font-size: 1.7rem;
+}
 
+.card-badge p {
+  text-transform: uppercase;
+  font-family: var(--Roboto);
+  font-weight: 700;
+  font-size: 1.6rem;
+}
 
+.in-the-magazine .card-badge .primary,
+.jackson-card .image-header {
+  background: #ff0000;
+  color: white;
+}
 
-
+.in-the-magazine .card-badge .secondary {
+  background: white;
+  color: #ff0000;
+}
 
 .bottom-section-header {
   color: red;
@@ -363,10 +380,6 @@ body {
   color: white;
   font-weight: 700;
   font-size: 14px;
-}
-
-.email-input {
-
 }
 
 .full-line-divider,

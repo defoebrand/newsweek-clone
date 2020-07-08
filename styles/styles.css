@@ -212,6 +212,15 @@ body {
   color: rgba(3, 3, 3, 0.5);
 }
 
+.more-stories-section .card-img{
+  height: 95px;
+  width: 95px;
+}
+
+.more-stories-section .card:first-of-type > .card-body {
+  clear: both;
+}
+
 .blue-tag {
   color: blue;
 }

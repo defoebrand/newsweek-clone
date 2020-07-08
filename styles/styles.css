@@ -187,6 +187,25 @@ body {
   text-transform: uppercase;
 }
 
+.my-turn-section .card-title,
+.culture-and-travel-section .card-title {
+  font-size: 16px;
+  color: rgba(3, 3, 3, 0.5);
+}
+
+.blue-tag {
+  color: blue;
+}
+
+.icon {
+  display: inline-block;
+  background-image: url("../images/newsweek-icon.png");
+  background-position: center;
+  background-size: cover;
+  height: 25px;
+  width: 25px;
+}
+
 .horizontal-card {
   padding: 14px 0;
   border-top: 1px solid #ddd;

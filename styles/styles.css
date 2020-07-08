@@ -21,6 +21,10 @@ body {
   margin: 0 auto;
 }
 
+header {
+  margin-top: -15px;
+}
+
 .white-text {
   color: white;
 }

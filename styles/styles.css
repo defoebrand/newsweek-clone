@@ -277,12 +277,12 @@ body {
 
 .sticky-1 {
   position: sticky;
-  top: calc(100vh - 2572px);
+  top: calc(100vh - 2572px - 10px);
 }
 
 .sticky-2 {
   position: sticky;
-  top: calc(100vh - 2329px);
+  top: calc(100vh - 2415px - 20px);
 }
 
 .my-turn-section .card,

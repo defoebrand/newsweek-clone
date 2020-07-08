@@ -500,3 +500,12 @@ footer .site-map-links {
   font-weight: 700;
   font-family: var(--Roboto);
 }
+
+.subscribe-text {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.call-to-action {
+  width: 260px;
+}

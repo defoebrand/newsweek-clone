@@ -65,7 +65,8 @@ body {
 .nav-link {
   color: black;
   font-family: 'Roboto Condensed', sans-serif;
-  padding: 0.5em 0.1em;
+  white-space: nowrap;
+  padding: 0 5px;
 }
 
 .nav-link:hover {
@@ -81,27 +82,43 @@ body {
   font-weight: 700;
   line-height: 24px;
   position: relative;
+  width: 100%;
 }
 
 .headlines::before {
   content: '';
   width: 66px;
-  height: 40%;
   position: absolute;
-  right: -15px;
+  right: 0;
   top: 0;
-  background: linear-gradient(45deg, white, white 20%, #f72210 20%, #f72210);
+  border-top: 12px solid #f72210;
+ border-left: 13px solid white;
 }
 
 .headlines .nav-item {
   flex: 1;
   text-align: center;
   justify-content: center;
+  line-height: 24px;
   min-width: fit-content;
+}
+
+.search {
+  width: 100px;
 }
 
 .trending {
   font-size: 16px;
+  width: 100%;
+}
+
+.trending .nav-item {
+  padding-left: 30px;
+  text-transform: uppercase;
+}
+
+.gray {
+  color: rgb(128, 127, 132);
 }
 
 .cover-grid {

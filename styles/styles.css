@@ -225,15 +225,6 @@ body {
   color: blue;
 }
 
-.icon {
-  display: inline-block;
-  background-image: url("../images/newsweek-icon.png");
-  background-position: center;
-  background-size: cover;
-  height: 25px;
-  width: 25px;
-}
-
 .horizontal-card {
   padding: 14px 0;
   border-top: 1px solid #ddd;
@@ -277,7 +268,7 @@ body {
 
 .sticky-1 {
   position: sticky;
-  top: calc(100vh);
+  top: calc(100vh - 2572px);
 }
 
 .sticky-2 {
@@ -293,6 +284,33 @@ body {
 .bottom-horiontal-image {
   width: 95px;
 }
+
+.sign-up-form {
+  background-color: #F4F5FB;
+}
+
+.sign-up-form h4 {
+  font-family: var(--Roboto);
+  font-size: 1.8rem;
+}
+
+.sign-up-form .icon {
+  width: 28px;
+  height: 29px;
+}
+
+.sign-up-form input {
+  font-size: 1.4rem;
+}
+
+.sign-up-form button {
+  font-size: 1.4rem;
+}
+
+
+
+
+
 
 .bottom-section-header {
   color: red;

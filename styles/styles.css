@@ -173,6 +173,20 @@ body {
   padding: 8px 15px 9px;
 }
 
+.culture-image-header {
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  background: #c2d4d7;
+  color: black;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 20px;
+  padding: 0 6px;
+  font-family: var(--Roboto);
+  text-transform: uppercase;
+}
+
 .horizontal-card {
   padding: 14px 0;
   border-top: 1px solid #ddd;

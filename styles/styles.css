@@ -1,6 +1,6 @@
 :root {
   --Roboto: 'Roboto Condensed', sans-serif;
-  --Arial: Arial, Helvetica, sans-serif;
+  --Arial: arial, helvetica, sans-serif;
 }
 
 * {
@@ -8,7 +8,7 @@
   padding: 0;
   border: 0;
   box-sizing: border-box;
-  font-family: var(--Arial);
+  font-family: var(--arial);
 }
 
 html {
@@ -96,7 +96,7 @@ header {
   right: 0;
   top: 0;
   border-top: 12px solid #f72210;
- border-left: 13px solid white;
+  border-left: 13px solid white;
 }
 
 .headlines .nav-item {
@@ -143,7 +143,6 @@ header {
   justify-content: flex-start;
 }
 
-
 .central-column {
   width: 30%;
   height: 100%;
@@ -165,7 +164,7 @@ header {
 }
 
 .card-body {
-  padding: 1.25rem 0px;
+  padding: 1.25rem 0;
 }
 
 .card-title {
@@ -225,7 +224,7 @@ header {
   color: rgba(3, 3, 3, 0.5);
 }
 
-.more-stories-section .card-img{
+.more-stories-section .card-img {
   height: 95px;
   width: 95px;
 }
@@ -299,7 +298,7 @@ header {
 }
 
 .sign-up-form {
-  background-color: #F4F5FB;
+  background-color: #f4f5fb;
 }
 
 .sign-up-form h4 {
@@ -321,7 +320,7 @@ header {
 }
 
 .in-the-magazine .card-title {
-    font-size: 1.7rem;
+  font-size: 1.7rem;
 }
 
 .card-badge p {
@@ -333,13 +332,13 @@ header {
 
 .in-the-magazine .card-badge .primary,
 .jackson-card .image-header {
-  background: #ff0000;
+  background: #f00;
   color: white;
 }
 
 .in-the-magazine .card-badge .secondary {
   background: white;
-  color: #ff0000;
+  color: #f00;
 }
 
 .bottom-section-header {
@@ -359,7 +358,7 @@ header {
 .subscribe-newsletter-section .bottom-section-header {
   position: absolute;
   top: -25px;
-  left: 0px;
+  left: 0;
   font-size: 1.6rem;
   color: #f72210;
 }
@@ -436,7 +435,6 @@ header {
   bottom: 0;
 }
 
-
 /* FOOTER */
 
 .footer-logo {
@@ -465,12 +463,12 @@ footer li {
   display: inline-block;
 }
 
-.social-links a:hover {
-  text-decoration: none;
-}
-
 footer a {
   color: #666;
+}
+
+.social-links a:hover {
+  text-decoration: none;
 }
 
 footer .editions-links,

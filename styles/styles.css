@@ -16,7 +16,6 @@ html {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
-
 body {
   max-width: 1310px;
   margin: 0 auto;
@@ -27,8 +26,6 @@ body {
 }
 
 .banner {
-  display: flex;
-  justify-content: space-between;
   background: rgba(0, 0, 0, 0.5);
   padding: 20px 10px 15px;
   background-color: #f72210;
@@ -43,13 +40,13 @@ body {
 }
 
 .page-title {
-  font-size: 7rem;
-  margin: 0;
+  fill: white;
+  width: 100px;
 }
 
 .banner-buttons {
   margin: 4px;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   align-self: flex-end;
   font-family: 'Roboto Condensed', sans-serif;
 }
@@ -83,6 +80,17 @@ body {
   font-size: 19px;
   font-weight: 700;
   line-height: 24px;
+  position: relative;
+}
+
+.headlines::before {
+  content: '';
+  width: 66px;
+  height: 40%;
+  position: absolute;
+  right: -15px;
+  top: 0;
+  background: linear-gradient(45deg, white, white 20%, #f72210 20%, #f72210);
 }
 
 .headlines .nav-item {
@@ -249,12 +257,12 @@ body {
 
 .sticky-1 {
   position: sticky;
-  top: 0px;
+  top: calc(100vh);
 }
 
 .sticky-2 {
   position: sticky;
-  top: 0px;
+  top: calc(100vh - 2329px);
 }
 
 .my-turn-section .card,

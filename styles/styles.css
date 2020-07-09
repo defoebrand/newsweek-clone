@@ -122,12 +122,13 @@ header {
   width: 100px;
 }
 
-.fa-search {
+.search {
+  width: 100px;
   margin-right: 75px;
 }
 
-.search {
-  width: 100px;
+.fa-search {
+  right: 15px;
 }
 
 .trending {

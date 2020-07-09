@@ -6,7 +6,7 @@ For this project, we used the Twitter Bootstrap framework to build a fully respo
 
 ![screenshot](screenshot.png)
 
-The project uses Bootstrap's built-in breakpoints to adapt to screensizes, making it accessible via mobile, laptop and desktop.
+The project uses Bootstrap's built-in breakpoints to adapt to screen sizes, making it accessible via mobile, laptop and desktop.
 
 This project was the first project compiled by Brandon and Joe in the Microverse HTML/CSS module. 
 

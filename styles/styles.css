@@ -310,8 +310,12 @@ header {
   width: 30%;
 }
 
-.bottom-horiontal-image {
+.bottom-horizontal-image {
   width: 95px;
+}
+
+.first-image {
+  height: 63.4px;
 }
 
 .sign-up-form {
@@ -356,6 +360,15 @@ header {
 .in-the-magazine .card-badge .secondary {
   background: white;
   color: #f00;
+}
+
+.all-features {
+  width: 100%;
+  background: #f4f5f6;
+}
+
+.all-features:hover {
+  background: #dbdcdd;
 }
 
 .bottom-section-header {
@@ -462,6 +475,7 @@ header {
 .footer-logo {
   width: 236px;
   fill: red;
+  height: 35px;
 }
 
 footer ul {

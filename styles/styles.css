@@ -239,6 +239,12 @@ header {
   width: 95px;
 }
 
+.debate-section .card-img,
+.opinion-section .card-img {
+  width: 63px;
+  height: 63px;
+}
+
 .more-stories-section .card:first-of-type > .card-body {
   clear: both;
 }

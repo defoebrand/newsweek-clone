@@ -413,8 +413,8 @@ header {
 }
 
 .full-line-divider::before {
-  left: -30px;
-  right: -30px;
+  left: 0;
+  right: 0;
   content: "";
   display: block;
   background-color: #f4f5f6;

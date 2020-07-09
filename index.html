@@ -16,13 +16,13 @@
       href="images/newsweek-icon.png">
 </head>
 <body>
-  <header>
-    <div class="banner d-relative row white-text">
-      <div class="local-info col">
+  <header class="m-0">
+    <div class="banner d-relative row white-text mx-0 px-0 p-2 p-md-3">
+      <div class="local-info col d-none d-lg-flex">
         <span class="font-weight-bold"><i class="fas fa-cloud-sun"></i>16° Melton Mowbray, GB</span>
         <span>Fri, Jul 03, 2020</span>
       </div>
-      <svg class="page-title col" version="1.1" xmlns="http://www.w3.org/2000/svg"
+      <svg class="page-title col-5 col-sm-3 col-lg-4 col pl-sm-2" version="1.1" xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60"
         style="enable-background:new 0 0 395.6 60;" xml:space="preserve">
         <g>
@@ -31,12 +31,14 @@
         </g>
       </svg>
       <div class="banner-buttons col d-flex justify-content-end">
-        <button class="login-button mr-4 font-weight-bold white-text">LOGIN</button>
-        <button class="trial-button font-weight-bold">SUBSCRIBE <i class="fas fa-chevron-right"></i></button>
+        <button class="d-inline d-md-none bg-transparent mr-4 align-self-center"><i class="fas fa-user"></i></button>
+        <button class="login-button d-none d-md-inline mr-4 font-weight-bold white-text">LOGIN</button>
+        <button class="trial-button text-nowrap font-weight-bold">SUBSCRIBE <i class="fas fa-chevron-right"></i></button>
+        <button class="d-inline d-lg-none bg-transparent ml-4 align-self-center"><i class="fas fa-bars"></i></button>
       </div>
     </div>
 
-  <div class="row">
+  <div class="row mx-0 d-none d-lg-flex">
     <ul class="nav flex-wrap headlines py-3">
       <li class="nav-item border-right"><a href="" class="nav-link">U.S.</a></li>
       <li class="nav-item border-right"><a href="" class="nav-link">World</a></li>
@@ -64,7 +66,7 @@
   </div>
   </header>
 
-  <div class="container-fluid px-5 pt-5">
+  <div class="container-fluid pt-5 px-lg-5 px-0">
       <!-- stories -->
 <div class="container-fluid">
   <div class="row d-flex">

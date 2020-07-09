@@ -1,6 +1,6 @@
 :root {
   --Roboto: 'Roboto Condensed', sans-serif;
-  --Arial: arial, helvetica, sans-serif;
+  --arial: arial, helvetica, sans-serif;
 }
 
 * {
@@ -55,6 +55,10 @@ header {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
+.fa-user {
+  color: rgba(255, 255, 255, 0.8);
+}
+
 .trial-button {
   background-color: #ffe400;
   border-radius: 24px;
@@ -64,6 +68,12 @@ header {
 .login-button {
   background: transparent;
   border: none;
+}
+
+.fa-bars {
+  font-size: 2rem;
+  color: rgba(255, 255, 255, 0.6);
+  margin-top: 5px;
 }
 
 .nav-link {
@@ -507,3 +517,37 @@ footer .site-map-links {
 .call-to-action {
   width: 260px;
 }
+
+/* MIN WIDTHS */
+@media (min-width: 576px) { }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { }
+
+
+
+/* MAX WIDTHS */
+@media (max-width: 575.85px) { }
+
+/* Medium devices (tablets, less than 768px) */
+@media (max-width: 767.85px) {
+  .trial-button {
+    font-size: 1.2rem;
+  }
+ }
+
+/* Large devices (desktops, less than 992px) */
+@media (max-width: 991.85px) {
+  .page-title {
+    width: 100px;
+  }
+ }
+
+/* Extra large devices (large desktops, less than 1200px) */
+@media (max-width: 1199.85px) { }

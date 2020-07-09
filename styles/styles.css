@@ -46,6 +46,7 @@ header {
 .page-title {
   fill: white;
   width: 100px;
+  height: 50px;
 }
 
 .banner-buttons {

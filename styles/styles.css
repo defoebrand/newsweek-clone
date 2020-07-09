@@ -394,6 +394,11 @@ header {
   border-radius: 0;
 }
 
+.newsletter-card .card-text {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 100;
+}
+
 .btn-newsweek {
   background-color: #f61602;
   color: white;
@@ -550,6 +555,11 @@ footer .site-map-links {
   .site-map-links .seperated-list-item {
     padding-bottom: 5px;
     padding-right: 15px;
+  }
+
+  .newsletter-card .card-text,
+  .newsletter-card .card-title {
+    text-align: center;
   }
  }
 
